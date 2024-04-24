@@ -1,0 +1,3 @@
+original_list = [(1, 2), (2, 3), (3, 4)]
+sum_of_tuples = [sum(t) for t in original_list]
+print(sum_of_tuples)
