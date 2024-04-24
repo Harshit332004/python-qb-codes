@@ -1,0 +1,6 @@
+set1 = {1, 2, 3, 4, 5}
+set2 = {1, 2, 4, 5}
+
+
+missing_in_set2 = set1 - set2
+print( missing_in_set2)
