@@ -1,0 +1,7 @@
+tuple_of_tuples = (('Red', 'White', 'Blue'), ('Green', 'Pink', 'Purple'), ('Orange', 'Yellow', 'Lime'))
+
+for tup in tuple_of_tuples:
+    if "Red" in tup:
+        print("true")
+    else:
+        print("false")
