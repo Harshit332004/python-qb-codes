@@ -1,0 +1,4 @@
+original_tuple = (('Red', 'White', 'Blue'), ('Green', 'Pink', 'Purple'), ('Orange', 'Yellow', 'Lime'))
+
+check_element = 'White'
+print(check_element in original_tuple)
