@@ -1,0 +1,13 @@
+def triangle_type(a, b, c):
+    if a == b == c:
+        return "Equilateral"
+    elif a == b or b == c or a == c:
+        return "Isosceles"
+    else:
+        return "Scalene"
+
+# Test the function with example sides
+side1 = 5
+side2 = 5
+side3 = 5
+print("Triangle type:", triangle_type(side1, side2, side3))
