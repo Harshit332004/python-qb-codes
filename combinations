@@ -1,0 +1,8 @@
+numbers = [1, 2, 3, 4, 5]
+target = 10
+
+for i in numbers:
+    for j in numbers:
+        for z in numbers:
+            if i+j+z==target:
+                print(i,j,z)
