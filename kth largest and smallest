@@ -1,0 +1,12 @@
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+
+# Sort the list
+sorted_list = sorted(my_list)
+
+# Input k for kth smallest and kth largest
+kth_smallest = int(input("Enter k for the kth smallest element: "))
+kth_largest = int(input("Enter k for the kth largest element (use negative index): "))
+
+# Output the kth smallest and kth largest elements
+print(sorted_list[kth_smallest])
+print(sorted_list[kth_largest])
