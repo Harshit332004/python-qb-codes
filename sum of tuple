@@ -1,0 +1,7 @@
+list_of_tuples = [(1, 2), (2, 3), (3, 4)]
+
+# Iterate over each tuple in the list
+for tup in list_of_tuples:
+    # Sum the elements of the current tuple
+    tup_sum = sum(tup)
+    print("Sum of elements in tuple", tup, ":", tup_sum)
