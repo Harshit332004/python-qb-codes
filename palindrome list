@@ -1,0 +1,10 @@
+my_list = [7, 15, 23, 15 , 7]
+
+def ispalin():
+    new = tuple(reversed(my_list))  # Convert the reversed list to a tuple
+    if tuple(my_list) == new:  # Convert the original list to a tuple for comparison
+        return True
+    else:
+        return False
+
+print(ispalin())
