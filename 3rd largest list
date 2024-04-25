@@ -1,0 +1,4 @@
+my_list = [1, 2, 3, 4, 5]
+setlist = set(my_list)
+sortset = sorted(setlist)
+print(sortset[-3])
