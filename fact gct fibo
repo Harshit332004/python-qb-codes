@@ -1,0 +1,35 @@
+GCD of Two Numbers:
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+num1 = 24
+num2 = 36
+
+print("GCD of", num1, "and", num2, "is:", gcd(num1, num2))
+
+Fibonacci of a Number:
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+num = 10
+
+print("Fibonacci of", num, "is:", fibonacci(num))
+
+Factorial of a Number:
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+num = 5
+
+print("Factorial of", num, "is:", factorial(num))
